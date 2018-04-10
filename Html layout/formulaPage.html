@@ -1,0 +1,70 @@
+<! DOCTYPE HTML>
+
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Anmäla Dig till Dans kurs hos Serene's DansAkademin </title>
+    <script src="../Javascript/startPage.js" type="text/javascript"></script>
+     <script src="../Javascript/adminPage.js" type="text/javascript"></script>
+    <script src="../Javascript/thankYou.js" type="text/javascript"></script>
+     <script src="../Javascript/formulaPage.js" type="text/javascript"></script>
+     <script src="../Javascript/createNewActivity.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="../Css/formulaPage.css">
+    
+      </head>
+    
+<body onload="start();" >
+    
+        <div class="wrapper">
+        
+            
+        <form name="formulaFirst" id="formula" method="get" 
+         ><br>
+            
+            <li id="headerList"></li>
+   
+            <ul>  
+        
+                <li><label for="userName1">Förnamn*:</label></li>  
+                <li><input type="text" placeholder="Ange ditt förnamn"
+                          id="resultOfFirstName" name="firstName" size="50" required/></li> 
+                
+                <li><label for="userName2">Efternamn*:</label></li>  
+                <li><input type="text" name="lastName" placeholder="Ange ditt efternamn"  id="resultOfLastName" size="50" required/></li>  
+
+                <li><label for="telephone">Telefonnummer*:</label></li>  
+                <li><input type="tel" name="telephoneNumber" placeholder="076-098-7578" id="resultOfPhoneNumber" size="50" required/></li>  
+
+                <li><label for="email">Email*:</label></li>  
+                <li><input type="email" placeholder="Ange giltig e-mail address" name="email" id="resultOfEmailAddress" size="50" required/></li> 
+
+                <li><label for="experienceLevel">Erfarenhet nivå:</label></li>  
+                <li><select name="experienceLevel" id="resultOfDanceLevelSelected">  
+
+                <option value="Nv0" >Väj dansnivå</option>  
+                <option value="Nv1">Nivå 1: Nybörjare 1</option>  
+                <option value="Nv2">Nivå 2: Nybörjare 2</option>  
+                <option value="Nv3">NIvå 3: Fortsättning 1</option>  
+                <option value="Nv4">Nivå 4: Fortsättning 2</option>  
+                <option value="Nv5">Nivå 5: Avancerad</option>  
+                </select></li>  
+
+                
+                <li>
+                    <label id="teacher">Välj Lärare:</label>
+                    <div id="teacherContainer"></div>
+                </li>  
+                 
+                
+                <li><label for="desc">Kommentera:</label></li>  
+                <li><textarea name="commentSection" id="commentSectionId"></textarea></li>  
+                
+                <li><button type="button" id="submitButtonId" onclick="SubmitFunction();"  value="Anmäla"/>Anmäla</li>  
+                
+            </ul>  
+    
+</form>  
+    </div>
+</body>
+</html>

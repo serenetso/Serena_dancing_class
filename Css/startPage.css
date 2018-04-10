@@ -1,0 +1,54 @@
+
+#headerId {
+    font-family: monospace;
+    color: white;
+    background: #000000 url(http://wallsdesk.com/wp-content/uploads/2017/01/Stockholm-HD-Background-.jpg) 70% 70% no-repeat;
+    font-size: 26px;
+    padding: 100px;
+}
+
+body {
+    background:  #000000 url(http://img.freepik.com/free-vector/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victorian-seamless-texture-for-wallpapers-textile-wrapping-exquisite-floral-baroque-template_1217-702.jpg?size=338&ext=jpg);
+}
+
+.lessonDivClass:hover {
+    background-color: lightblue;
+}
+
+a {
+    color: mediumvioletred;
+    font-family: monospace;
+}
+
+.buttonClass {
+    
+    font-family: monospace;
+	border: 1px solid green;
+	color: lightseagreen;
+	padding:10px;
+    font-size:20px;
+    margin: 10px;
+    
+}
+
+.buttonClass:hover {
+    background-color: azure;
+}
+
+.lessonDivClass {
+    
+   border: 1px solid blueviolet;
+    padding: 10px;
+    background-color: azure;
+    font-size: 100%;
+    margin: 60px;
+    float: left;
+}
+
+#lessonNameSpanId {
+    color: lightseagreen;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+

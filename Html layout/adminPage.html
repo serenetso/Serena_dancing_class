@@ -1,0 +1,32 @@
+<! DOCTYPE HTML>
+
+<html>
+    
+<head>
+    <meta charset="UTF-8">
+    <title>Välkommen till Serene's DansAkademin Admin Sida</title>
+    <script src="../Javascript/startPage.js" type="text/javascript"></script>
+    <script src="../Javascript/thankYou.js" type="text/javascript"></script>
+     <script src="../Javascript/formulaPage.js" type="text/javascript"></script>
+      <script src="../Javascript/adminPage.js" type="text/javascript"></script>
+     <script src="../Javascript/createNewActivity.js" type="text/javascript"></script>
+    
+    <!-- Här länker jag mina css filer: Jag personligen har länkat in 2 styckna css filéer att undvika skriva 2 likadana kod-->
+    <link rel="stylesheet" type="text/css" href="../Css/startPage.css">
+    <link rel="stylesheet" type="text/css" href="../Css/adminPage.css">
+
+      </head>
+    
+    
+<body onload="generateAllUserInfo();">
+    
+    <div id="headerId"><h1>Serene's DansAkademin</h1></div>
+    
+     <div class="lessonDivClass" id="buttonAndTableId"></div>
+    
+    <div class="newActivityDivClass" id="newActivityDivId">
+          <button type="button" class="newActivityClass" onclick="generateNewActivity();">Lägg till en ny dans kurs!</button>
+    </div>
+    
+</body>
+</html>

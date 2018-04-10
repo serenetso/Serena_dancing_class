@@ -1,0 +1,108 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+    font-family: "museo-sans-rounded",sans-serif;
+	text-rendering:optimizeLegibility;
+}
+
+body{
+    font:400 12px/1.625 museo-sans-rounded,sans-serif;
+	color: #991D57;
+     background: #000000 url(http://img.freepik.com/free-vector/vector-damask-seamless-pattern-background-classical-luxury-old-fashioned-damask-ornament-royal-victorian-seamless-texture-for-wallpapers-textile-wrapping-exquisite-floral-baroque-template_1217-702.jpg?size=338&ext=jpg);
+}
+
+.wrapper {
+	max-width:500px;
+	width:95%;
+	margin:0 auto;
+	position:relative;
+}
+
+h2 {
+	color:lightseagreen;
+	display:block;
+	font-size:32px;
+    font-family: cursive;
+   
+}
+
+
+#formula {
+	text-shadow:0 1px 0 #FFF;
+	border-radius:4px;
+	background:#F9F9F9;
+	padding-top: 0;
+    padding-left:25px;
+    padding-bottom: 25px;
+    padding-right: 25px;
+    margin: 25px;
+}
+
+li {
+    list-style: none;
+}
+
+
+#danceCourseId, 
+#danceCourseName,
+#danceCourseImageUrl,
+#danceCourseDescription,
+#danceCourseTeacher1, 
+#danceCourseTeacher2 {
+    width:100%;
+	box-shadow:inset 0 1px 2px #DDD, 0 1px 0 #FFF;
+    border: 1px solid lightseagreen;
+    padding: 10px; 
+    background:azure ;
+    border-radius: 25px;
+}
+
+
+#danceCourseId:hover, 
+#danceCourseName:hover,
+#danceCourseImageUrl:hover,
+#danceCourseDescription:hover,
+#danceCourseTeacher1:hover, 
+#danceCourseTeacher2:hover
+{
+transition:border-color 0.3s ease-in-out;
+	border:2px solid seagreen; 
+}
+
+#submitButtonId {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#991D57;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	border-radius:5px;
+}
+
+#submitButtonId:hover {
+    transition:border-color 0.3s ease-in-out;
+	border:2px solid seagreen; 
+    background-color: lightseagreen;
+}
+
+label {
+	cursor:pointer;
+	color:#991D57;
+	display:block;
+	margin:5px 0;
+	font-weight:900;
+}
+
+#danceCourseId:focus, 
+#danceCourseName:focus,
+#danceCourseImageUrl:focus,
+#danceCourseDescription:focus,
+#danceCourseTeacher1:focus, 
+#danceCourseTeacher2:focus {
+	outline:0;
+	border:2px solid #991D57;
+}
+
+  

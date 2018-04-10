@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+
+}
+
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color:  mediumvioletred;
+    border: 1px solid mediumvioletred;
+}
+
+.myTableClass {
+    border: 1px solid red;
+    background-color: wheat;
+    margin-right: 5px;
+}
+
+.newActivityClass {
+    
+    font-family: monospace;
+	border: 1px solid red;
+	color: mediumvioletred;
+	padding:10px;
+    font-size:20px;
+    margin: 10px;
+    
+}
+
+.newActivityClass:hover {
+    background-color: lightgoldenrodyellow;
+}
+
+.newActivityDivClass {
+    float: right;
+    border: 1px solid purple;
+    padding: 10px;
+    background-color: azure;
+    font-size: 100%;
+    margin: 60px;
+   
+}
